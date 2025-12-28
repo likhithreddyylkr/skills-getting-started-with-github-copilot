@@ -6,6 +6,16 @@
 }
 
 body {
+  list-style-type: none; /* Hide bullet points */
+  
+  .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 1.2em;
+  }
+
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
