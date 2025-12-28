@@ -39,6 +39,16 @@
         </form>
         <div id="message" class="hidden"></div>
       </section>
+
+      <section id="participants-container">
+        <h3>Registered Participants</h3>
+        <ul style="list-style-type: none; padding: 0;">
+          <li>
+            Participant Name <button class="delete-btn" onclick="unregisterParticipant('participantId')">🗑️</button>
+          </li>
+          <!-- Repeat for each participant -->
+        </ul>
+      </section>
     </main>
 
     <footer>
